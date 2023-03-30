@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+  }
+  .MainHead{
+      text-align: center;
+      background-color: #333;
+      color: white;
+      margin: 0%;
+      font-family: firefont;
+      letter-spacing: 10px;
+      font-size: 38px;
+    }
+    main{
+      padding-bottom: 23%;
+    }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+h1{
+  text-align: center;
+}
+p{
+  border: 2px solid;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+    .contact-CTA{
+  padding: 2% 5%;
+  text-align: center;
+}
+.contact-CTA h3{
+  font-size: 3.5em;
+}
+.contact-CTA .modal{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,.4);
+  transition: all .5s ease;
+}
+.contact-CTA .modal-content{
+  background-color: #0e0e0e;
+  margin: auto;
+  padding: 20px;
+  border-radius: 15px;
+  width: 90%;
+  height: 100vh;
+}
+.contact-CTA .modal-content h4{
+  color: #f4f4f4;
+  font-size: 1.75em;
+}
+.contact-CTA .close{
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.contact-CTA .close:hover,
+.contact-CTA .close:focus{
+  color: #0e0e0e;
+  text-decoration: none;
+  cursor: pointer;
+}
+.contact-CTA .modal-content form{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.contact-CTA .modal-content form input,
+.contact-CTA .modal-content form textarea{
+  width: 80%;
+  margin-bottom: 10px;
+  padding: 15px;
+  outline: none;
+}
+.contact-CTA .modal-content form input[type=submit]{
+  width: 40%;
+}
+#modalBtn{
+  padding: 15px 50px;
+  background-color: #072d67;
+  color: #f4f4f4;
+  border: solid 2px #072d67;
+  border-radius: 10px;
+  font-size: 1.2em;
+  transition: all .25s linear;
+}

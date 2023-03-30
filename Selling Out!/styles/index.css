@@ -1,0 +1,116 @@
+/* Global Styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+
+header {
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1{
+  margin-top:-5%;
+  padding-left: 15%;
+  text-align: center;
+  font-family: firefont;
+}
+header h2 img{
+  display: block;
+  width: 100px;
+  height: auto;
+  padding-left: 25px;
+  
+}
+header h2{
+  font-size: 15px;
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+/*   font-size: 18px; */
+}
+
+nav a:hover {
+  color: #f1c40f;
+}
+
+/* Main Styles */
+
+.FP-img {
+  width: 100%;
+  height: auto;
+}
+
+section {
+  margin-top: -1%;
+  padding: 10px;
+  background-image: linear-gradient(black,green,#ff1f1f, lightgreen , black );
+  
+}
+@font-face{
+  font-family: firefont;
+  src: url(/blazed/Blazed.ttf);
+}
+
+
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 35px;
+  text-align: center;
+}
+
+section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 20px;
+}
+
+.LOGO {
+  width: 150px;
+}
+
+.text {
+  text-align: center;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}
+section ul li img{
+  transition: all 0.5s ease-in-out; 
+}
+section ul li img:hover{
+  transform: scale(1.2);
+}
