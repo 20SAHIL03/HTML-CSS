@@ -1,0 +1,163 @@
+@import url('https://fonts.cdnfonts.com/css/gummy-bears');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+header {
+
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-family: 'Gummy Bears', sans-serif;
+  filter: drop-shadow(2px 2px 5px black);
+  
+}
+
+header img {
+  display: inline-block;
+  margin-left: 10px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  
+}
+
+main {
+  padding: 50px;
+  background-image: linear-gradient(#2c3e50,#ea16b1,#ff1f1f, #a0ffa0 , #2c3e50 );
+  
+}
+
+p {font-size: 20px;
+font-family: cursive;
+}
+
+
+section {
+  margin-bottom: 50px;
+}
+
+section img{
+  width: 50%;
+  padding-left:25% ;
+}
+
+section h2 {
+  color: #c0ff00;
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+                                                
+}
+#ingredients{
+  background-image: url(images/jb.jpg);
+  width: 60%;
+  margin-left: 19%;
+  background-size: cover;
+  border-image: round;
+}
+#nutrition{
+  background-image: url(images/jelly\ bear.jpg);
+  background-size: cover;
+  
+}
+ul {
+  list-style-type: disc;
+  margin-left: 30px;
+  padding-left: 0;
+  color: snow;
+  font-size: 18px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: 100%;
+}
+
+table th, table td {
+
+  padding: 10px;
+  text-align: left;
+  font-size: 18px;
+}
+
+
+
+footer {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer form {
+  display: flex;
+}
+
+footer label {
+  color: #fff;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+footer input,
+footer textarea {
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+footer button {
+  background-color: #e74c3c;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
